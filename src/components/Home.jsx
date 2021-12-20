@@ -1,5 +1,5 @@
 import React from 'react'
-import User from "./Users";
+import User from "./User";
 import Search from './Search'
 function Home() {
     return (
