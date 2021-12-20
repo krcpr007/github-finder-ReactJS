@@ -1,4 +1,4 @@
-.custom-card-image .card.image:before{
+.custom-card-image .card.image-full:before{
     /* image-full */
       border-radius: 0.5rem;
       opacity: 0.45;
