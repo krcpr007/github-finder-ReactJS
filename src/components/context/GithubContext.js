@@ -21,7 +21,7 @@ export const GithubProvider = ({ children }) => {
       },
     });
     const data = await response.json();
-    console.log(data);
+    // console.log(data);
     // setUsers(data);
     // setLoading(false);
     dispatch({
