@@ -3,11 +3,14 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import { GithubProvider } from "./components/context/GithubContext";
+import { AlertProvider } from "./components/context/AlertContext";
 ReactDOM.render(
   <GithubProvider>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
+    <AlertProvider>
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
+    </AlertProvider>
   </GithubProvider>,
   document.getElementById("root")
 );
