@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 function UserItem({ user: { login, avatar_url } }) {
   return (
-    <div className="card border border-purple-500 shadow-md compact side bg-base-100">
+    <div className="card border border-purple-400 shadow-md compact side bg-base-100">
       <div className="flex-row item-center space-x-4 card-body">
         <div>
           <div className="avatar">
