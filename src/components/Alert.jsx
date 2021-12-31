@@ -1,12 +1,12 @@
 import React ,{useContext} from "react";
 import AlertContext from "./context/AlertContext";
 function Alert() {
-  const  {alert}= useContext(AlertContext); 
+  const  {alert, closeAlert}= useContext(AlertContext); 
   return alert !==null && (
     <div className="flex items-start mb-1 space-x-2">
       {alert.type === 'error' && (
-          <svg
-            className='w-6 h-6 flex-none mt-0.5'
+          <svg onClick={closeAlert}
+            className='w-6 h-6 flex-none mt-0.5 cursor-pointer'
             fill='none'
             viewBox='0 0 24 24'
           >
@@ -18,7 +18,7 @@ function Alert() {
             ></path>
           </svg>
         )}
-      <p className="flex-1 text-base font-semibold leading-7 text-primary">
+      <p className="flex-1 text-base font-semibold leading-7 text-white">
         <strong>{alert.msg}</strong>
       </p>
     </div>
