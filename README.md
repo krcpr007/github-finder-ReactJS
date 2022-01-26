@@ -1,5 +1,9 @@
-# Getting Started with Create React App
+# Github Finder App
+## It is Reactjs website where people will come can search github users as well as they can see users repos. and info like bio place and user is hireable or not. it is deployed at cloudflare <a href="https://github-finder-reactjs.pages.dev/">click here</a>
 
+![image](public/image1.jpg)
+
+![image](public/image2.jpg)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
