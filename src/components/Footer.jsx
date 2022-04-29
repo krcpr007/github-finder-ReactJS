@@ -36,7 +36,7 @@ function Footer() {
     <div>
       <div className="grid grid-flow-col gap-4">
         <a
-          href="https://github.com/krcpr007/MarvelHub"
+          href="https://github.com/krcpr007/github-finder-ReactJS"
           target="_blank"
           rel="noreferrer"
         >
